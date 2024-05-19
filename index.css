@@ -1,0 +1,172 @@
+body {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(image_1/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.title {
+    color: rgba(255, 255, 255, .1);
+    background-image: url(image_1/text.png);
+    background-repeat: repeat-x;
+    font-size: 100px;
+    line-height: 450px;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+}
+.intro_container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #ffffff7e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px; 
+}
+@keyframes animate {
+    0% {
+        background-position: left 0px top 80px;
+    }
+
+    40% {
+        background-position: left 800px top -50px;
+    }
+
+    80% {
+        background-position: left 1800px top -50px;
+    }
+
+    100% {
+        background-position: left 2400px top 80px;
+    }
+}
+.cards {
+    box-sizing: border-box;
+    background-color: rgba(180, 208, 224, 0.403);
+    height: 110px;
+    width: 70%;
+    padding-top: 10px;
+    margin: 0 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+}
+
+.cards:hover {
+    width: 280px;
+    height: 130px;
+    padding-top: 35px;
+    font-size: 24px;
+    background-color: rgba(129, 198, 255, 0.403);
+    border: 3px solid white;
+    font-size: 20px;
+}
+
+.material-icons {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.cards:hover .material-icons {
+    opacity: 1;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome_box {
+    background-color: rgba(255, 255, 255, 0.275);
+    border: 1px solid white;
+
+    text-align: center;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+    transition: all 0.5s;
+}
+
+.welcome_title {
+    font-size: 42px;
+    color: rgb(0, 6, 35);
+}
+
+.welcome_para {
+    font-size: 22px;
+    color: rgb(64, 73, 102);
+    margin-top: 50px;
+}
+
+.section_4 {
+    margin-top: 100px;
+}
+
+.why_img {
+    width: 100%;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+.why_box ul .why {
+    background-color: rgba(255, 255, 255, 0.515);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 330px;
+    border-radius: 24px;
+    border: 2px solid white;
+}
+
+.why_box ul .why_title {
+    background-color: rgba(190, 229, 255, 0.515);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 330px;
+    border-radius: 24px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.why_box {
+    color: rgb(0, 2, 43);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.why_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer_container {
+    background-color: rgba(255, 255, 255, 0.392);
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card_title {
+    color: rgb(50, 111, 137);
+    font-size: 60px;
+    text-align: center;
+}

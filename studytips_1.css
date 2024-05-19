@@ -1,0 +1,111 @@
+body {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(image_3/Book_11.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: rgba(240, 255, 255, 0.749);
+}
+.book_8 {
+    width: 400px;
+    margin-top: 28px;
+    margin-left: 15px;
+}
+.book_12 {
+    width: 370px;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.book_13 {
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.book_14 {
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.book_15 {
+    width: 400px;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+.book_16 {
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.book_17 {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.book_18 {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.book_19 {
+    width: 380px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.text_0 {
+    margin-left: 130px;
+}
+.text_1 {
+    font-size: 25px;
+    background-color: rgb(39, 51, 68);
+    color: #d7eaf3;
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text_2 {
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.bt_1 {
+    width: 90px;
+    height: 45px;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(39, 51, 68);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    border: none;
+    margin-left: 130px;
+    text-decoration: none;
+}
+.bt_1:hover {
+  background-color: rgba(90, 103, 103, 0.676);
+}
+.con1 {
+    background-color: rgba(255, 255, 255, 0.452);
+    color: rgb(39, 51, 68);
+    width: 100%;
+    height: 100%;
+    border-radius: 34px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.con3 {
+    margin-top: 15px;
+}
+
+

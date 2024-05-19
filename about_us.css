@@ -1,0 +1,84 @@
+.pfirst {
+    display: inline-block;
+    padding-left: 20px;
+    color: black;
+}
+.title {
+    font-size: 80px;
+    color: #6d90b6;
+    text-align: center;
+}
+body {
+    background-color: #e2efff;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 730px;
+    margin-top: 150px;
+    border: 2px solid #8EACCD;
+    color: #6d90b6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+@media screen and (min-width:600px){
+   .pfp{width: 60px;}
+}
+.pfp{
+    width: 250px;
+    height:280px;
+    display: block;
+    margin: 25px 25px;
+    padding-top: 25px;
+}
+.logos {
+    font-size:40px ;
+    margin-left: 80px;
+    line-height: 60px;
+}
+.overlay {
+    font-size: 46px;
+    text-align:center ;
+}
+.nameninfo {
+    font-size: 15px;
+    text-align: center;
+    padding:0 10px;
+}
+
+
+
+.nameninfo > h3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+.goal {
+    background-color: #8fbcec;
+    color: #ffffff;
+    border: 2px solid white;
+    height: 200px;
+    text-align: center;
+    padding: 9px 9px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.goal > h2 {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.nameninfo > p {
+    text-align: center;
+}
+
